@@ -270,7 +270,8 @@ a {
 .spotlight-copy,
 .footer p,
 .repo-card p,
-.path-list {
+.path-list,
+.person-card dd {
   color: var(--muted);
   line-height: 1.75;
 }
@@ -392,6 +393,72 @@ a {
   margin-top: 1rem;
 }
 
+.people-hero {
+  align-items: stretch;
+}
+
+.people-section {
+  margin-top: 1rem;
+  padding: 1.6rem;
+  border-radius: 24px;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.person-card {
+  padding: 1.2rem;
+  border: 1px solid rgba(214, 163, 93, 0.13);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 233, 184, 0.035), rgba(0, 0, 0, 0.11)),
+    rgba(17, 12, 9, 0.46);
+  box-shadow: inset 0 1px 0 rgba(255, 230, 184, 0.06);
+}
+
+.person-card h3 {
+  margin: 0 0 1rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.55rem;
+  color: #f7dfad;
+}
+
+.person-card dl {
+  display: grid;
+  grid-template-columns: 5.6rem minmax(0, 1fr);
+  gap: 0.45rem 0.75rem;
+  align-items: baseline;
+  margin: 0;
+}
+
+.person-card dt {
+  color: var(--accent-strong);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.person-card dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.person-card a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.person-card a:hover {
+  text-decoration: underline;
+}
+
 .opencode-panel {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -447,6 +514,7 @@ a {
   .hero,
   .section-grid,
   .repo-grid,
+  .people-grid,
   .opencode-panel,
   .footer,
   .topbar {
@@ -474,9 +542,14 @@ a {
   .hero,
   .section-card,
   .spotlight,
+  .people-section,
   .footer,
   .topbar {
     padding: 1.25rem;
+  }
+
+  .person-card dl {
+    grid-template-columns: 1fr;
   }
 
   .hero h1 {
