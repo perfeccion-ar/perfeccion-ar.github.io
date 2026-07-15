@@ -34,7 +34,7 @@
   <g filter="url(#pressed)">
     <text x="600" y="194" fill="#d2c0a3" font-family="Segoe UI, Arial, sans-serif" font-size="30" letter-spacing="8" text-anchor="middle">TALLER ABIERTO, GRATUITO, SIN TRAMPAS</text>
     <text x="600" y="324" fill="url(#brass)" font-family="Georgia, 'Times New Roman', serif" font-size="132" font-weight="700" text-anchor="middle">Bunker 4</text>
-    <text x="600" y="394" fill="#f2e6d0" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="600" text-anchor="middle">Infraestructura clasica y avanzada</text>
+    <text x="600" y="394" fill="#f2e6d0" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="600" text-anchor="middle">Infraestructura de Software</text>
     <text x="600" y="462" fill="#d2c0a3" font-family="Segoe UI, Arial, sans-serif" font-size="30" text-anchor="middle">Linux · VPS · Contenedores · Automatizacion · Observabilidad</text>
   </g>
 </svg>
